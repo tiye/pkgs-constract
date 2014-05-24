@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body#app {
+    margin: 0;
+}
+
+#page {
+    width: 1200px;
+    margin: auto;
+}
+
+#time {
+    text-align: center;
+    padding: 100px 0;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.package {
+    line-height: 20px;
+    margin: 6px 0px;
+}
+.package:hover {
+    background: rgb(238, 238, 238);
+}
+
+a.name {
+    display: inline-block;
+    width: 250px;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+section.size {
+    height: 30px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-family: monospace;
+    padding: 0 6px;
+    line-height: 30px;
+    text-shadow: 1px 1px 4px black;
+}
